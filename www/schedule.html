@@ -1,0 +1,277 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>CS 350S: Privacy-Preserving Systems</title>
+    </head>
+    <div class="toolbar">
+        <a href="index.html"><button class="tab">Home</button></a>
+        <a href="overview.html"><button class="tab">Overview</button></a>
+        <a href="schedule.html"><button class="tab">Schedule</button></a>
+        <a href="assign.html"><button class="tab">Assignments</button></a>
+        <a href="resources.html"><button class="tab">Resources</button></a>
+    </div>
+    <body>
+        <div class="row">
+            <h1>CS 350S: Privacy-Preserving Systems</h1>
+            </div>
+        <div class="row">
+            <h3>Schedule</h3>
+            <p>The schedule is subject to change.</p>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Topic</th>
+                    <th>Reading</th>
+                </tr>
+                <tr>
+                    <td>9/23</td>
+                    <td>Course introduction</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>9/25</td>
+                    <td>Cryptography basics</td>
+                    <td>
+                        <i>Required:</i>
+                        <ul>
+                            <li><a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to read a paper</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9/30</td>
+                    <td>Transparency logs I<br><i>Guest speaker: Emily Stark (Google)</i></td>
+                    <td>
+                        <i>Required:</i>
+                        <ul>
+                            <li><a href="https://emilymstark.com/2020/07/20/certificate-transparency-a-birds-eye-view.html">Certificate transparency: A bird's eye view</a></li>
+                            <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9592820">Certificate transparency in Google Chrome: Past, present, and future</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/2</td>
+                    <td>Transparency logs II<br>
+                        <i>Guest speaker: Kevin Lewi (?)</i></td>
+                    <td>
+                        <i>Required:</i>
+                        <ul>
+                            <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf">CONIKS</a></li>
+                        </ul>
+                        <i>Optional:</i>
+                        <ul>
+                            <li>SEEMless and/or blog posts about deployment</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/7</td>
+                    <td>Secure hardware</td>
+                    <td>
+                        <i>Required:</i>
+                        <ul>
+                            <li><a href="https://arxiv.org/pdf/2303.15540">Intel TDX Demystified</a></li>
+                        </ul>
+                        <i>Presenter:</i>
+                        <ul>
+                            <li><a href="https://blog.trailofbits.com/2025/05/14/the-cryptography-behind-passkeys/">Passkeys</a></li>
+                            <li><a href="https://css.csail.mit.edu/6.5660/2024/readings/u2f-fc.pdf">U2F</a></li>
+                            <li><a href="https://www.imperialviolet.org/tourofwebauthn/tourofwebauthn.html">WebAuthn (reference)</a></li>
+                            <li>(Alternatively: attack on TDX)</li>
+                        </ul>
+                        <i>Optional:</i>
+                        <ul>
+                            <li><a href="https://eprint.iacr.org/2016/086.pdf">Intel SGX Explained</a></li>
+                            <li><a href="https://www.amd.com/content/dam/amd/en/documents/epyc-business-docs/white-papers/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf">AMD SEV-SNP whitepaper</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>10/9</td>
+                    <td>Private information retrieval I: </td>
+                    <td>
+                        <i>Required:</i>
+                        <ul>
+                            <li><a href="https://www.cs.umd.edu/~gasarch/TOPICS/pir/first.pdf">Private information retrieval (CGKS'95)</a></li>
+                        </ul>
+                        <i>Optional:</i>
+                        <ul>
+                            <li><a href="https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf">Kushilevitz-Ostrovsky Single-Server PIR</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/14</td>
+                    <td>Private information retrieval II</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://www.usenix.org/system/files/conference/nsdi17/nsdi17-wang-frank.pdf">Splinter</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://eprint.iacr.org/2018/707.pdf">Function secret sharing (sections 1, 2, 3.2)</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/16</td>
+                    <td>Private information retrieval III<br>
+                    <b>Project proposal due</b></td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://eprint.iacr.org/2023/1438.pdf">Tiptoe</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://www.usenix.org/system/files/osdi25-zhu-jinhao.pdf">Compass</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/21</td>
+                    <td>Oblivious RAM I</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://dl.acm.org/doi/pdf/10.1145/233551.233553">Goldreich-Ostrovsky square-root ORAM</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/23</td>
+                    <td>Oblivious RAM II</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://dl.acm.org/doi/pdf/10.1145/3177872">Path ORAM</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://signal.org/blog/building-faster-oram/">Signal private contact discovery</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/28</td>
+                    <td>Anonymous messaging I</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://apps.dtic.mil/sti/tr/pdf/ADA465464.pdf">Tor</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://dl.acm.org/doi/pdf/10.1145/2046556.2046570">Fingerprinting attack</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10/30</td>
+                    <td>Anonymous messaging II</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://arxiv.org/pdf/1503.06115">Riposte</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-angel.pdf">Pung</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11/4</td>
+                    <td>Multi-party computation I</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://securecomputation.org/docs/pragmaticmpc.pdf">Pragmatic MPC book (chapters 1-2.3.3)</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://www.science.org/doi/10.1126/science.aam9710">Genetic analysis</a></li>
+                        <li><a href="https://arxiv.org/pdf/2203.00146">VaultDB</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11/6</td>
+                    <td>Multi-party computation II<br>
+                    <b>Project progress report due</b></td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://securecomputation.org/docs/pragmaticmpc.pdf">Pragmatic MPC book (chapter 3.4)</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://eprint.iacr.org/2023/400.pdf">Prime Match</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11/11</td>
+                    <td>Private aggregate statistics <br>
+                        <i>Guest speaker: Tim Geogehan</i></td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://arxiv.org/pdf/1703.06255">Prio</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11/13</td>
+                    <td>Differential privacy</td>
+                    <td>
+                    <i>Required:</i>
+                    <ul>
+                        <li><a href="https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf">Dwork-Roth book (chapters 1-2)</a></li>
+                    </ul>
+                    <i>Presenter:</i>
+                    <ul>
+                        <li><a href="https://dl.acm.org/doi/pdf/10.1145/1559845.1559850">PINQ</a></li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11/18</td>
+                    <td>Legal and social privacy challenges<br>
+                    <i>Guest speaker: Riana Pfefferkorn</i></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/20</td>
+                    <td>Federated learning</td>
+                    <td>
+                        <i>Required</i>
+                        <ul>
+                            <li><a href="https://research.google/blog/federated-learning-collaborative-machine-learning-without-centralized-training-data/">Blog post</a></li>
+                            <li><a href="https://arxiv.org/pdf/1602.05629">Communication-Efficient Learning of Deep Networks from Decentralized Data</a></li>
+                        </ul>
+                        <i>Presenter:</i>
+                        <ul>
+                            <li>Attacks on federated learning (TODO)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12/2</td>
+                    <td>Student presentations I<br>
+                    <b>Project final report due</b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12/5</td>
+                    <td>Student presentations II</td>
+                    <td></td>
+                </tr>
+                
+                
+            </table>
+            </div>
+</body>
+</html>
