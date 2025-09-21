@@ -1,5 +1,3 @@
 1. Summarize the security and privacy properties of CONIKS.
 
 2. Say that Bob goes offline for a period of time and then comes back online. Describe what a malicious identity provider can do during this time period, and what happens when Bob comes back online. 
-
-3. What is a permissive key update policy and a strict key update policy? Describe the benefits and drawbacks of each.
