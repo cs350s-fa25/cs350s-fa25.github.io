@@ -1,0 +1,5 @@
+1. Summarize the security property that certificate transparency aims to provide.
+
+2. Explain why signed certificate timestamps (SCTs) were introduced. What problem do they solve?
+
+3. Imagine that no SCT auditing takes place. Describe how this does or does not affect the guarantees that certificate transparency aims to provide. 
