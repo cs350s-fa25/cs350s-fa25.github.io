@@ -1,0 +1,3 @@
+1. Every issued web certificate should appear in a certificate transparency log, and other parties can check that the certificate transparency log is being maintained correctly. These properties make it possible to detect certificate misissuance.
+
+2. If no SCT auditing takes place, then there is no guarantee that every certificate with a valid SCT is included in the log. Therefore, if the log misbehaves, then there may be certificates issued that are not included in the CT log, running counter to CT’s goal of making certificate issuance easy to monitor.
