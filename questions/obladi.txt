@@ -1,0 +1,3 @@
+1. What are performance and security limitations of Obladi’s reliance on a proxy?
+
+2. What is a benefit of using multiversioned timestamp ordering over two-phase locking? 

@@ -1,0 +1,3 @@
+1. How does increasing the number of servers affect the communication cost in the algorithm in 3.2?
+
+2. What is the best-possible communication a client can hope for when privately fetching a single element from a database with information-theoretic privacy using just one server? Describe a simple algorithm that achieves this best-possible communication.
