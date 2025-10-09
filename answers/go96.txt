@@ -1,0 +1,4 @@
+1. Consider the following deterministic ORAM construction: for each access, scan over every element, reading (and potentially updating) each element in some fixed access pattern. Using a probabilistic ORAM makes it possible to achieve lower costs.
+
+2. An adversary observing memory accesses can learn if two first-time accesses (i.e., the accessed element is not already in the stash) in different epochs are for the same element. If the adversary knows some information about accesses in one epoch, it can use this to infer information about accesses in the other epoch.
+
