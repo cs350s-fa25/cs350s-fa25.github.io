@@ -1,0 +1,3 @@
+1. What are three advantages of Tiptoe using semantic embeddings over a keyword-based representation of a document (e.g., tf-idf)?
+
+2. What is the main factor that leads to the difference in search quality between Tiptoe and higher-quality search algorithms (e.g., ColBERT or exhaustive embedding search)?

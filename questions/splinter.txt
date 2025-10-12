@@ -1,0 +1,3 @@
+1. Why does Splinter only support ORs if the conditions are disjoint? What goes wrong if we use Splinter’s technique for disjoint ORs with conditions that are not disjoint?
+
+2. Why can Splinter not support median queries?
