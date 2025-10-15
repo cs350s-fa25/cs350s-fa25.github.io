@@ -1,0 +1,4 @@
+1. This proxy can become a single point of failure for performance, scalability, and fault tolerance, because all client requests are routed through the same proxy. The proxy is also a single point of failure for privacy: all the clients in the system need to use the same proxy, and if an attacker compromises this proxy, it can compromise sensitive information for all the clients.
+
+2. Using multiversioned timestamp ordering is better for performance than two-phase locking. Multiple transactions that involve writing and reading the same object can be executed in the same epoch, even though the transactions only commit at the end of the epoch. (In contrast, with two-phase locking, a write to an object would require taking an exclusive lock, which would not allow the other transactions touching that object to proceed concurrently.)
+
