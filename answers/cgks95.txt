@@ -1,0 +1,4 @@
+1. With k=2^d servers and n records, the communication is 2^d * (d * n^{1/d} + 1). So adding more servers decreases the communication cost for sufficiently large n. 
+
+2. For a database of n bits, the best possible communication is n bits: the client simply downloads the entire database. (Reducing costs requires additional non-colluding servers or a computational assumption.)
+
