@@ -1,0 +1,5 @@
+1. If a record matches multiple conditions, then it will be included multiple times when computing a sum-based aggregate. For example, if a client’s query counts the number of records that match condition A or condition B, then a record that matches both conditions A and B will contribute 2 to the count, where it should only contribute 1. 
+
+2. Median is not a sum-based aggregate: it cannot be computed on-the-fly by summing values corresponding to different records (as is the case for sum, count, average, standard deviation, and histogram).
+
+Also accepted: ideas for extending the max/min/topk protocol to median.
