@@ -1,0 +1,8 @@
+1. Possible answers:
+* Semantic embeddings capture semantic similarity, as opposed to just keyword matches, which can provide better search quality. 
+* Semantic embeddings allow Tiptoe to generalize beyond searching over text to searching over images. Tiptoe’s techniques are also compatible with searching over videos, code, and other formats where an embedding function exists.
+* Semantic embeddings are concise document representations, which reduces the cost of responding to a query. In contrast, Coeus uses tf-idf vectors that are linear in the size of the dictionary.
+* The embeddings can be improved independently of the cryptography in order to make the search quality better.
+
+2. Tiptoe’s search quality is limited by the clustering. Tiptoe only searches within one cluster, and so if the “best” (i.e., human-chosen) answer is in the cluster with the centroid closest to the client’s query, then Tiptoe will check that document, and, if it has the largest inner-product score with the client’s query, will return it as the top query result. If the best answer is not in that cluster with the closest centroid, then Tiptoe will not return the best answer.
+
