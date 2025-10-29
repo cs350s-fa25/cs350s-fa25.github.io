@@ -1,0 +1,3 @@
+1. An attacker could include nodes controlled by the attacker in the directory. The attacker could also give different clients different versions of the directory and use this information to run a partitioning attack.
+
+2. Such an attacker can learn information about the timing and size of requests. An attacker can match the pattern of packets it observes to a database of website “fingerprints” (the pattern of traffic generated via interaction with a particular website) and use this to guess which website the user is visiting.
