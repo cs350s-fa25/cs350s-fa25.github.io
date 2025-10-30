@@ -1,0 +1,8 @@
+1. These are several (but not all) possible ways:
+* Riposte only requires a small number of servers (e.g., 3) where clients interact with most of the servers, whereas Tor requires many servers, and not every client interacts with every server.
+* Riposte allows clients to privately write to some shared database, whereas Tor hides the link between a user and a webservice.
+* Riposte cryptographically defends against traffic-analysis attacks, which Tor is susceptible to.
+* Riposte private writes are visible after the epoch completes, whereas Tor connections are low-latency.
+
+2. Disruption resistance ensures that n malicious clients can disrupt at most n rows of the database. Without disruption resistance, a single malicious client could disrupt the output of every row in the database, changing the writes of the other honest clients to garbage values (this can amount to a denial-of-service attack).
+
