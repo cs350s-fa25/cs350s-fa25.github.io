@@ -1,0 +1,3 @@
+1. Imagine Prio without SNIPs. Which, if any, of the security properties from section 2 does Prio without SNIPs provide?
+
+2. What type of statistics can Prio collect? Provide a property and examples.
