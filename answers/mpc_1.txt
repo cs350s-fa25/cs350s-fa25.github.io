@@ -1,0 +1,5 @@
+1. The two parties could run some MPC protocol where the client provides its request as an input and the server provides the model as input, and the output delivered to the client is the model’s prediction. 
+
+2. A semi-honest adversary that corrupts a party may view all the state that the corrupted party has access to, but cannot cause the corrupted party to deviate from the protocol. A malicious adversary that corrupts a party can both view all the state that the corrupted party has access to and cause the party to behave arbitrarily.
+
+3. Alice does not need to share her phone number with Bob in order to have a conversation on Signal: she can instead share a username.
