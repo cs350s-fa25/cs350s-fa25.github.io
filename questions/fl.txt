@@ -1,0 +1,3 @@
+1. Describe what type(s) of client failures Flamingo addresses, and what guarantees Flamingo provides in the presence of such failure(s). 
+
+2. Why is it not safe to use the same seeds in the BBGLR protocol for multiple rounds? Describe at a high level how Flamingo fixes this problem. 
