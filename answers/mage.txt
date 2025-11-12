@@ -1,0 +1,3 @@
+1. No, because in a plaintext database workload, the accesses are data-dependent, and so not known ahead of time.
+
+2. No. MAGE can improve the overhead of reads and writes from memory, but does not decrease the network communication between parties. Therefore if network communication is the bottleneck for a MPC program, then reducing memory overheads with MAGE will not significantly impact performance.
