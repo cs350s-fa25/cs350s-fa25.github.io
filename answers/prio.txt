@@ -1,0 +1,3 @@
+1. Prio without SNIPs still provides anonymity and privacy: clients would simply upload secret shares to the servers, and the servers would aggregate and then reconstruct the shares. However, Prio without SNIPs would not provide robustness: a malicious client could disproportionately affect the output because there are no input validation checks.
+
+2. Prio can collect statistics that can be expressed as affine-aggregatable encodings (AFEs). In particular, given encodings of x_1, x_2, …, x_n, the server can then compute f(x_1, x_2, …, x_n) from the sum of the encodings. Examples include sum, mean, variance, standard deviation, frequency count over a small set of values, and max/min over a small range.
