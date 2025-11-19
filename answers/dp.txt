@@ -1,0 +1,3 @@
+1. With differential privacy, the analyst needs to learn some useful information from the released statistic without learning too much information. In contrast, when sending a message, the recipient of a message should be able to learn the exact original message (correctness), but the adversary should learn nothing about the message (semantic security). 
+
+2. Differential privacy is defined in terms of neighboring databases that differ by a single row in the database (privacy is at a “row level”). However, Alice may have clicked on many ads for running shoes. Epsilon differential privacy hides that she clicked on a particular ad, but might not adequately hide her general interest in running shoe ads.
