@@ -1,3 +1,0 @@
-1. Describe one way in which an attacker who controls a majority of the directory servers can learn information about a user’s traffic.
-
-2. Describe what an attacker passively monitoring traffic between a user's client and a Tor node can learn.
