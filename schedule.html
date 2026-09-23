@@ -62,7 +62,7 @@ const SCHEDULE = [
   },
   {
     date: "9/30",
-    topic: "Secure hardware",
+    topic: "Secure hardware I",
     required: [
       ["Opaque", "https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zheng.pdf"],
     ],
@@ -79,34 +79,34 @@ const SCHEDULE = [
   },
   {
     date: "10/5",
-    topic: "Private AI with Secure Hardware",
+    topic: "Secure hardware II (Private AI)",
     note: "Guest speaker: Sacha Servan-Schreiber (Tinfoil)"
   },
   {
     date: "10/7",
-    topic: "Transparency logs I",
+    topic: "Secure hardware III (Encrypted backups)",
     required: [
-      ["Certificate transparency in Google Chrome: Past, present, and future", "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9592820"],
-      ["Certificate Transparency: Public, verifiable, append-only logs", "https://queue.acm.org/detail.cfm?id=2668154"],
+      ["SafetyPin", "https://www.usenix.org/system/files/osdi20-dauterman_safetypin.pdf"],
     ],
-    optional: [
-      ["Transparent Logs for Skeptical Clients", "https://research.swtch.com/tlog"],
-      ["Certificate transparency and the WebPKI", "https://certificate.transparency.dev/howctworks/"],
+    presenter: [
+      ["SVR3", "https://www.usenix.org/system/files/osdi24-connell.pdf"],
     ],
   },
   {
     date: "10/12",
-    topic: "Transparency logs II",
-    due: "Project proposal due",
+    topic: "Transparency logs",
     required: [
-      ["CONIKS", "https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf"],
+      ["Certificate transparency in Google Chrome: Past, present, and future", "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9592820"],
+      ["Certificate Transparency: Public, verifiable, append-only logs", "https://queue.acm.org/detail.cfm?id=2668154"],
     ],
     presenter: [
-      ["SEEMless", "https://eprint.iacr.org/2018/607.pdf"],
+      ["CONIKS", "https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf"],
     ],
     optional: [
+      ["Transparent Logs for Skeptical Clients", "https://research.swtch.com/tlog"],
+      ["Certificate transparency and the WebPKI", "https://certificate.transparency.dev/howctworks/"],
+      ["SEEMless", "https://eprint.iacr.org/2018/607.pdf"],
       ["Parakeet", "https://eprint.iacr.org/2023/081.pdf"],
-      ["WhatsApp key transparency", "https://engineering.fb.com/2023/04/13/security/whatsapp-key-transparency/"],
     ],
   },
   {
@@ -128,9 +128,9 @@ const SCHEDULE = [
     required: [
       ["Obladi", "https://www.usenix.org/system/files/osdi18-crooks.pdf"],
     ],
-    presenter: 
+    presenter: [
       ["Compass", "https://www.usenix.org/system/files/osdi25-zhu-jinhao.pdf"],
-    ], 
+    ],
     optional: [
       ["Pancake", "https://www.usenix.org/system/files/sec20-grubbs.pdf"],
       ["Snoopy", "https://eprint.iacr.org/2021/1280.pdf"],
@@ -184,13 +184,14 @@ const SCHEDULE = [
     topic: "Anonymous messaging II",
     due: "Project progress report due",
     required: [
-      ["Riposte", "https://arxiv.org/pdf/1503.06115"],
+      ["Myco", "https://eprint.iacr.org/2025/687.pdf"],
     ],
     presenter: [
-      ["Pung", "https://www.usenix.org/system/files/conference/osdi16/osdi16-angel.pdf"],
+      ["SecureDrop", "https://eprint.iacr.org/2026/1484.pdf"],
     ],
     optional: [
       ["Vuvuzela", "https://people.eecs.berkeley.edu/~raluca/cs261-f15/readings/vandenhooff-vuvuzela.pdf"],
+      ["Riposte", "https://arxiv.org/pdf/1503.06115"],
     ],
   },
   {
