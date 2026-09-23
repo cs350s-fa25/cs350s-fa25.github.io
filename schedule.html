@@ -64,7 +64,7 @@ const SCHEDULE = [
     date: "9/30",
     topic: "Secure hardware",
     required: [
-      ["VC3", "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/vc3-oakland2015.pdf"],
+      ["Opaque", "https://www.usenix.org/system/files/conference/nsdi17/nsdi17-zheng.pdf"],
     ],
     presenter: [
       ["Controlled-channel attack", "https://css.csail.mit.edu/6.5660/2024/readings/controlled-channel.pdf"],
@@ -101,8 +101,10 @@ const SCHEDULE = [
     required: [
       ["CONIKS", "https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-melara.pdf"],
     ],
-    optional: [
+    presenter: [
       ["SEEMless", "https://eprint.iacr.org/2018/607.pdf"],
+    ],
+    optional: [
       ["Parakeet", "https://eprint.iacr.org/2023/081.pdf"],
       ["WhatsApp key transparency", "https://engineering.fb.com/2023/04/13/security/whatsapp-key-transparency/"],
     ],
@@ -126,11 +128,13 @@ const SCHEDULE = [
     required: [
       ["Obladi", "https://www.usenix.org/system/files/osdi18-crooks.pdf"],
     ],
+    presenter: 
+      ["Compass", "https://www.usenix.org/system/files/osdi25-zhu-jinhao.pdf"],
+    ], 
     optional: [
       ["Pancake", "https://www.usenix.org/system/files/sec20-grubbs.pdf"],
       ["Snoopy", "https://eprint.iacr.org/2021/1280.pdf"],
       ["Ring ORAM", "https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-ren-ling.pdf"],
-      ["Compass", "https://www.usenix.org/system/files/osdi25-zhu-jinhao.pdf"],
     ],
   },
   {
@@ -138,6 +142,9 @@ const SCHEDULE = [
     topic: "Private information retrieval I",
     required: [
       ["Private information retrieval (CGKS'95)", "https://www.cs.umd.edu/~gasarch/TOPICS/pir/first.pdf"],
+    ],
+    presenter: [
+      ["Splinter", "https://www.usenix.org/system/files/conference/nsdi17/nsdi17-wang-frank.pdf"],
     ],
     optional: [
       ["Kushilevitz-Ostrovsky Single-Server PIR", "https://web.cs.ucla.edu/~rafail/PUBLIC/34.pdf"],
@@ -156,7 +163,6 @@ const SCHEDULE = [
       ["Coeus", "https://eprint.iacr.org/2022/154.pdf"],
       ["Dory", "https://eprint.iacr.org/2020/1280"],
       ["Function secret sharing", "https://eprint.iacr.org/2018/707.pdf"],
-      ["Splinter", "https://www.usenix.org/system/files/conference/nsdi17/nsdi17-wang-frank.pdf"],
       ["SimplePIR", "https://eprint.iacr.org/2022/949.pdf"],
     ],
   },
@@ -193,17 +199,19 @@ const SCHEDULE = [
     required: [
       ["Pragmatic MPC book (chapters 1-2.3.3, 3.4)", "https://securecomputation.org/docs/pragmaticmpc.pdf"],
     ],
+    presenter: [
+      ["MAGE", "https://www.usenix.org/system/files/osdi21-kumar.pdf"],
+    ],
     optional: [
       ["Genetic analysis", "https://www.science.org/doi/10.1126/science.aam9710"],
       ["VaultDB", "https://arxiv.org/pdf/2203.00146"],
       ["A gentle introduction to Yao's garbled circuits", "https://web.mit.edu/sonka89/www/papers/2017ygc.pdf"],
       ["Cerebro", "https://www.usenix.org/system/files/sec21-zheng.pdf"],
-      ["MAGE", "https://www.usenix.org/system/files/osdi21-kumar.pdf"],
     ],
   },
   {
     date: "11/9",
-    topic: "Private aggregate statistics and anonymous credentials",
+    topic: "Private aggregate statistics",
     note: "Guest speakers: Tim Geoghegan (ISRG) and Chris Patton (Cloudflare)",
     required: [
       ["Prio", "https://arxiv.org/pdf/1703.06255"],
@@ -225,18 +233,26 @@ const SCHEDULE = [
   },
   {
     date: "11/16",
-    topic: "Federated learning",
+    topic: "Private training",
     required: [
-      ["Blog post", "https://research.google/blog/federated-learning-collaborative-machine-learning-without-centralized-training-data/"],
-      ["Flamingo", "https://www.cis.upenn.edu/~sga001/papers/flamingo-sp23.pdf"],
+      ["Nudge", "https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_henzinger.pdf"],
     ],
     presenter: [
-      ["Exploiting Unintended Feature Leakage in Collaborative Learning", "https://arxiv.org/pdf/1805.04049"],
+      ["Piranha", "https://www.usenix.org/system/files/sec22-watson.pdf"],
     ],
   },
   {
     date: "11/18",
     topic: "Private inference",
+    required: [
+      ["Delphi", "https://eprint.iacr.org/2020/050.pdf"],
+    ],
+    presenter: [
+      ["Cerium", "https://arxiv.org/pdf/2512.11269"],
+    ],
+    optional: [
+      ["BOLT", "https://eprint.iacr.org/2023/1893.pdf"],
+    ],
   },
   {
     date: "12/2",
